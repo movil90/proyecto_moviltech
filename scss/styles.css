@@ -1,0 +1,79 @@
+* {
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  padding: 0 0 0 0;
+}
+
+.container .navbar-custom {
+  background-color: #091f3581;
+}
+
+.container .navbar-custom .navbar-brand h6 {
+  color: #39FF14;
+  margin-top: 1rem;
+}
+
+.container .navbar-custom .navbar-brand .navbar-text {
+  color: #39FF14;
+}
+
+.container .navbar-custom .navbar-brand .navbar-nav .nav-link {
+  color: #39FF14;
+  background-color: black;
+  border-radius: 8px 8px 8px 8px;
+  margin-right: 1rem;
+  padding: 1rem;
+}
+
+.container #imagenmovil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: center;
+          flex-direction: center;
+  text-align: center;
+}
+
+.container .moviltech {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: center;
+          flex-direction: center;
+  text-align: center;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.container .card .card-body {
+  background-color: black;
+  padding: 1rem;
+}
+
+.container .card .card-title {
+  color: #39FF14;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+  width: 250px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=styles.css.map */

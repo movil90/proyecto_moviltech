@@ -1,0 +1,54 @@
+.container{
+    display:block;
+    max-width: 1100px;
+    margin:auto;
+    padding-left:1rem;
+    padding-right:1rem;
+    background-color: $light_gray;
+
+}
+
+.product_grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: auto;
+        grid-auto-flow: dense;
+        gap: 3rem;
+        margin: 2rem 2rem 2rem 2rem;
+        align-items: center;
+        justify-items: center;
+        
+    }
+        /* Seccion Productos **/
+
+    .productos_container{
+        height: 200px;
+        width: 150px;
+        padding-bottom: 2rem; 
+        margin-bottom: 4rem;
+            .image_product{
+                border-radius: 8px 8px 0 0;
+            }
+            .image_product_games{
+                height: 220px;
+                width: 150px;
+                border-radius: 8px 8px 0 0;
+            }
+            .product_title{
+                    color: #39FF14;
+                    background-color: #080a1d;
+                    font-size: 12px;
+                    padding: 15px;
+                    text-align: center;
+                    margin: -4px 4 0 0;
+            }   
+        }
+
+    .productos_container:hover {
+        transform: scale(1.1);
+        opacity: 0.3;
+        transition: all 300ms ease;
+        filter:brightness(1);
+        cursor:pointer;
+
+    }
