@@ -31,7 +31,7 @@ body {
     .navbar-custom{
     background-color: black;
         .navbar-brand{ 
-                h6{
+                h1{
                     color: #39FF14;
                     margin-top: 1rem;
                 }
@@ -42,7 +42,7 @@ body {
                 color: #39ff14;
                 border-radius: 8px 8px 8px 8px;
                 margin-right: 1rem;
-                padding: 1rem;
+                padding: 10px;
                 font-size: $base-font-size;
                         
                 }
@@ -70,14 +70,13 @@ body {
                 }
                 .card__body{
                     background-color: black;
-                    padding: 1rem;
-                    }                   
+                    padding: 1rem;                   
                     .card__body--card-title{
                         @include fontStyle();
                         display:flex;
                         border-radius: 10px;
-                        width: 250px;
-                        justify-content: center
+                        justify-content: center;
+                        padding:0 0 0 0;
                 }
             }
         }
@@ -133,6 +132,7 @@ body {
             padding: 14px;
             box-shadow: 10px 10px 5px/*blur shadow*/  5px rgba(0,0,0,.5);
             line-height: 1.5rem;
+            font-size: 15px;
             }
         
         .carousel-control-next,
@@ -146,4 +146,11 @@ body {
     .navbar-nav .nav-link {
         text-align: center;
     }
-}
+    /*
+    .card{
+        .card__imagen {
+        display:flex;
+        align-items:center;
+        }
+        */
+}}
