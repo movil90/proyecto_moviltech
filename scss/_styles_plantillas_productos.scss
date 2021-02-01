@@ -14,10 +14,9 @@
         grid-auto-rows: auto;
         grid-auto-flow: dense;
         gap: 3rem;
-        margin: 2rem 2rem 2rem 2rem;
+        margin: 2rem 2rem 2rem 2rem;     
         align-items: center;
-        justify-items: center;
-        
+        justify-items: center; 
     }
         /* Seccion Productos **/
 
@@ -51,4 +50,11 @@
         filter:brightness(1);
         cursor:pointer;
 
+    }
+
+    @media only screen and (max-width: 550px) {
+        .product_grid{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);  
+        }
     }
