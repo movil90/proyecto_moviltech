@@ -9,7 +9,16 @@ $base-font-size: 20px;
 $basegray: #2e3d59;
 $linkfonts:#39FF14;
 $light_gray:#6d80a6;
-
+@mixin footer-style {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: white;
+    padding: 2rem;
+}
 @mixin fontStyle{
     color:#39FF14;
     background-color: black;
@@ -81,17 +90,21 @@ body {
             }
         }
 /* Footer */
-.footer {
+footer {
     width: 100%;
-    height: 5rem;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    font-size: 1rem;
-    margin-top: 1rem;
-    @include fontStyle();
+    margin-top: 50px;
+        .copyright {
+            @include footer-style();
+            justify-content: center;
+        }
+        .socials{
+            @include footer-style(); 
+            i{
+                text-decoration: none;
+                color: gray;
+            }   
+        }
+
 }
 
 
