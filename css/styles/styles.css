@@ -68,7 +68,7 @@ body {
   background-color: #2e3d59; }
   .container .navbar-custom {
     background-color: black; }
-    .container .navbar-custom .navbar-brand h1 {
+    .container .navbar-custom h1 {
       color: #39FF14;
       margin-top: 1rem; }
     .container .navbar-custom .nav-link {
@@ -80,41 +80,45 @@ body {
       padding: 10px;
       font-size: 20px;
       font-weight: 1.5px; }
+    .container .navbar-custom .nav-link:hover {
+      color: #39FF14; }
 
-.container_ {
+.container {
   /* Footer */
   /* Plantilla Producto Individual */
   /* Media Querys */ }
-  .container_ .container__imagenmovil {
+  .container .container__imagenmovil {
     display: flex;
     flex-direction: center;
     text-align: center; }
-    .container_ .container__imagenmovil .container__imagenmovil--moviltech {
+    .container .container__imagenmovil .container__imagenmovil--moviltech {
       margin-top: 3rem;
       display: flex;
       flex-direction: center;
       text-align: center;
       margin-bottom: 3rem;
       width: 100%; }
-  .container_ .card {
+  .container .card {
     background-color: black; }
-    .container_ .card .card__imagen {
+    .container .card .card__imagen {
       width: 100%; }
-    .container_ .card .card__body {
+    .container .card .card__body {
       background-color: black;
       padding: 1rem; }
-      .container_ .card .card__body .card__body--card-title {
+      .container .card .card__body .card__body--card-title {
         color: gray;
         background-color: black;
         display: flex;
         border-radius: 10px;
         justify-content: center;
         padding: 0 0 0 0; }
-  .container_ footer {
+        .container .card .card__body .card__body--card-title h2:hover {
+          color: #39FF14; }
+  .container footer {
     width: 100%;
     margin-top: 50px;
     background-color: black; }
-    .container_ footer .copyright {
+    .container footer .copyright {
       background-color: black;
       display: flex;
       flex-direction: row;
@@ -124,7 +128,7 @@ body {
       color: white;
       padding: 2rem;
       justify-content: center; }
-    .container_ footer .socials-text {
+    .container footer .socials-text {
       background-color: black;
       display: flex;
       flex-direction: row;
@@ -134,7 +138,7 @@ body {
       color: white;
       padding: 2rem;
       justify-content: center; }
-    .container_ footer .socials {
+    .container footer .socials {
       background-color: black;
       display: flex;
       flex-direction: row;
@@ -143,38 +147,38 @@ body {
       font-size: 18px;
       color: white;
       padding: 2rem; }
-      .container_ footer .socials i {
+      .container footer .socials i {
         text-decoration: none;
         color: gray;
         transform: all .5s ease; }
-      .container_ footer .socials .facebook:hover {
+      .container footer .socials .facebook:hover {
         transform: scale(1.3, 1.3);
         color: #382CA9; }
-      .container_ footer .socials .whatsapp:hover {
+      .container footer .socials .whatsapp:hover {
         transform: scale(1.3, 1.3);
         color: #382CA9; }
-      .container_ footer .socials .instagram:hover {
+      .container footer .socials .instagram:hover {
         transform: scale(1.3, 1.3);
-        bcolor: #53241B; }
-  .container_ .carousel-item {
+        color: #53241B; }
+  .container .carousel-item {
     height: 400px;
     background: white;
     position: relative;
     align-items: center;
     border-radius: 15px; }
-    .container_ .carousel-item .carousel-control-next-icon,
-    .container_ .carousel-item .carousel-control-prev-icon {
+    .container .carousel-item .carousel-control-next-icon,
+    .container .carousel-item .carousel-control-prev-icon {
       filter: invert(1); }
-  .container_ .main {
+  .container .main {
     padding-top: 3rem;
     margin: 0 0 2rem;
     padding-left: 5rem; }
-    .container_ .main .imagenProducto {
+    .container .main .imagenProducto {
       box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.5); }
-    .container_ .main .pictures {
+    .container .main .pictures {
       background-color: white;
       border-radius: 15px; }
-    .container_ .main .data {
+    .container .main .data {
       background-color: whitesmoke;
       width: auto;
       height: 400px;
@@ -183,9 +187,9 @@ body {
       box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.5);
       line-height: 1.5rem;
       font-size: 15px; }
-    .container_ .main .carousel-control-next,
-    .container_ .main .carousel-control-prev {
+    .container .main .carousel-control-next,
+    .container .main .carousel-control-prev {
       filter: invert(100%); }
   @media only screen and (max-width: 550px) {
-    .container_ .navbar-nav .nav-link {
+    .container .navbar-nav .nav-link {
       text-align: center; } }
