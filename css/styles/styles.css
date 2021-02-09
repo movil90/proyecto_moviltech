@@ -113,33 +113,48 @@ body {
         padding: 0 0 0 0; }
         .container .card .card__body .card__body--card-title h2:hover {
           color: #39FF14; }
-  .container .carousel-item {
-    height: 400px;
-    background: white;
-    position: relative;
-    align-items: center;
-    border-radius: 15px; }
-    .container .carousel-item .carousel-control-next-icon,
-    .container .carousel-item .carousel-control-prev-icon {
-      filter: invert(1); }
+  .container .breadcrumb {
+    margin-top: 1rem; }
+    .container .breadcrumb li {
+      padding: 1rem; }
+    .container .breadcrumb a {
+      padding-right: 10px; }
   .container .main {
-    padding-top: 3rem;
-    margin: 0 0 2rem;
-    padding-left: 5rem; }
-    .container .main .imagenProducto {
-      box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.5); }
-    .container .main .pictures {
-      background-color: white;
-      border-radius: 15px; }
+    padding-top: 1rem;
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: center; }
+    .container .main #myCarousel .carousel-item {
+      border-radius: 15px;
+      height: 30rem;
+      background: white; }
+      .container .main #myCarousel .carousel-item .overlay-image {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        background-repeat: no-repeat;
+        background-position: center; }
+      .container .main #myCarousel .carousel-item .carousel-control-next-icon,
+      .container .main #myCarousel .carousel-item .carousel-control-prev-icon {
+        filter: invert(1); }
     .container .main .data {
-      background-color: whitesmoke;
+      margin-top: -2rem;
+      background-color: white;
       width: auto;
       height: 400px;
       border-radius: 15px;
       padding: 14px;
-      box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.5);
+      line-height: 2rem;
+      /*
+            box-shadow: 10px 10px 5px  5px rgba(0,0,0,.5);
+            */
       line-height: 1.5rem;
-      font-size: 15px; }
+      font-size: 18px; }
+      .container .main .data h1 {
+        font-size: 24px;
+        line-height: 2rem; }
     .container .main .carousel-control-next,
     .container .main .carousel-control-prev {
       filter: invert(100%); }
