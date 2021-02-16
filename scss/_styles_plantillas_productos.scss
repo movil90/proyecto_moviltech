@@ -14,22 +14,22 @@
         grid-auto-rows: auto;
         grid-auto-flow: dense;
         gap: 3rem;
-        margin: 2rem 2rem 2rem 2rem;     
+        margin: 5rem 2rem 1rem 2rem;     
         align-items: center;
         justify-items: center; 
     }
         /* Seccion Productos **/
 
     .productos_container{
-        height: 200px;
-        width: 150px;
+        height: 300px;
+        width: 220px;
         padding-bottom: 2rem; 
         margin-bottom: 4rem;
             .image_product{
                 border-radius: 8px 8px 0 0;
             }
             .image_product_games{
-                height: 220px;
+                height: 300px;
                 width: 150px;
                 border-radius: 8px 8px 0 0;
             }
