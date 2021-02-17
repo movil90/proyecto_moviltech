@@ -7,7 +7,6 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="js/bootstrap.bundle.js">
-	<link href="css/reset.css" rel="stylesheet">
     <link href="css/styles/styles.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/cbbfb2fbd5.js" crossorigin="anonymous"></script>
     <title>MOVILTECH</title>
@@ -40,38 +39,27 @@
             </div>
         </nav>
 
-<section class="container">
-    <h3 class="text-uppercase text center">Formulario de Contacto</h3>
-    <form action="">
+    <div class="container-form">    
+        <form class="form-horizontal">
+            <div class="form-group">
+            <label for="nombre" class="control-label col-md-2">Nombre:</label>
+            <div class="col-md-8">
+                <input class="form-control" id="nombre" type="text" placeholder="Nombre y Apellido">
+            </div>
+            </div>
+        <div class="col-md-6 col-sm-6">
+            <div class="form-group">
+                <label for= "e-mail">E-mail:</label>    
+                <input class="form-control" id="nombre" type="text" placeholder="Correo Electronico">
+            </div>
+        </div>
         <div class="form-group">
-            <label for="">Nombre</label>
-            <input type="text" placeholder="Ej: Andres Lopez" class="form-control">
+            <div class="col-md-2 col-md-offset-2">
+                <button class="btn btn-primary"> Enviar </button>
+            </div>
         </div>
-        <div class="form group">
-            <label for=""></label>
-            <input type="email" placeholder="ejemplo@gmail.com" class="form-control">
-        </div>
-    </form>
-</section>
-<div class="texto"><h1>Contactate con Nosotros!!</h1></div>
-        <form>
-            <div class="form-row">
-            <div class="col">
-                <label for="fullName">Nombre y Apellido:</label>
-                <input type="text" class="form-control" placeholder="Ej: Andres Lopez">
-            </div> <br> </br>
-            <div class="col-md-4">
-                <label for="email">Correo Electronico</label>
-                <input type="text" class="form-control" placeholder="ejemplo@gmail.com">
-            </div>
-            <div>
-                <label for="comments">¿Que necesitas?</label>
-                <textarea name="comments" id="comments" cols="15" rows="10">
-                </textarea>
-            </div>
-            <button type="submit">Enviar </button>
-            </div>
         </form>
+    </div>
 
 <!-- Footer -->
 <footer>
