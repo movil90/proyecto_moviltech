@@ -1,0 +1,76 @@
+.container{
+    .main{
+    padding-top: 1rem;
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+    #myCarousel{
+        .carousel-item{  
+            height: 30rem;
+            width: 100%;
+            background: white;
+                .overlay-image{
+                    position: absolute;
+                    bottom:0;
+                    left:0;
+                    right:0;
+                    top:0;
+                    background-repeat: no-repeat;
+                    background-position:center;
+                    background-size: contain;
+                }
+                .carousel-control-next-icon,
+                .carousel-control-prev-icon {
+                        filter: invert(1);
+                }
+            }
+        }
+    .tag-price{
+        margin-left: 0px;
+        padding-left: 0px;
+        background-color: white;
+        height: 505px;
+        width: 535px;
+            .product-name{
+                    font-size: 20px;
+                    line-height: 1.5em;   
+                    margin: $margin-text;              
+            }
+            .product-description{
+                line-height: 1.5em;    
+                margin: $margin-text;    
+            }
+            .prices-method{
+                font-size: 20px;
+                border-style: dotted;
+                border-color: $light_gray;
+                color: #289e87;
+                line-height: 1.5em;
+                margin: $margin-text;    
+            }
+            .delivery-image{
+                display:flex;
+                align-items: center;
+                padding:1rem;
+                max-width: 100%;
+                margin-top:1rem;
+                margin-left: 2rem;
+            }
+    }
+    .data{
+        margin-top: -2rem;
+        background-color: white;
+        width: auto;
+        height: auto;
+        border-radius: 15px;
+        padding: 14px;
+        line-height: 2rem;
+        font-size: 18px;
+                h1{
+                    font-size: 24px;
+                    line-height: 2rem;
+
+                }
+            }
+    }
+}
