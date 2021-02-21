@@ -121,7 +121,6 @@ body {
     display: flex;
     justify-content: center; }
     .container .main #myCarousel .carousel-item {
-      border-radius: 15px;
       height: 30rem;
       width: 100%;
       background: white; }
@@ -132,7 +131,8 @@ body {
         right: 0;
         top: 0;
         background-repeat: no-repeat;
-        background-position: center; }
+        background-position: center;
+        background-size: contain; }
       .container .main #myCarousel .carousel-item .carousel-control-next-icon,
       .container .main #myCarousel .carousel-item .carousel-control-prev-icon {
         filter: invert(1); }

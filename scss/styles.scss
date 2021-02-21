@@ -119,7 +119,6 @@ body {
     justify-content: center;
     #myCarousel{
         .carousel-item{  
-            border-radius: 15px;
             height: 30rem;
             width: 100%;
             background: white;
@@ -131,6 +130,7 @@ body {
                     top:0;
                     background-repeat: no-repeat;
                     background-position:center;
+                    background-size: contain;
                 }
                 .carousel-control-next-icon,
                 .carousel-control-prev-icon {
