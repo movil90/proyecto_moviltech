@@ -31,15 +31,28 @@
                 border-radius: 8px 8px 0 0;
             }
             .product_title{
-                    color: #39FF14;
-                    background-color: #080a1d;
-                    font-size: 12px;
-                    padding: 15px;
-                    text-align: center;
-                    margin: -4px 4 0 0;
-            }   
+                background-color: #080a1d;
+                font-size: 14px;
+                padding: 8px;
+                text-align: center;
+                margin: -4px 4 0 0;
+                width: 220px;
+                height: 54px;
+                line-height: 1rem;
+                color: #39FF14;
+            .product_title_console{
+                background-color: #080a1d;
+                font-size: 14px;
+                padding: 8px;
+                text-align: center;
+                margin: -4px 4 0 0;
+                width: 220px;
+                height: 100px;
+                color: #39FF14;
+                } 
+            /* Cuando aplico este estilo a la plantilla de consolas no aplica, al poner el tag en el html */
+            }
         }
-
     .productos_container:hover {
         transform: scale(1.1);
         opacity: 0.3;

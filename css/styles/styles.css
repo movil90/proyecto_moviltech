@@ -31,12 +31,24 @@
   .productos_container .image_product_games {
     border-radius: 8px 8px 0 0; }
   .productos_container .product_title {
-    color: #39FF14;
     background-color: #080a1d;
-    font-size: 12px;
-    padding: 15px;
+    font-size: 14px;
+    padding: 8px;
     text-align: center;
-    margin: -4px 4 0 0; }
+    margin: -4px 4 0 0;
+    width: 220px;
+    height: 54px;
+    line-height: 1rem;
+    color: #39FF14; }
+    .productos_container .product_title .product_title_console {
+      background-color: #080a1d;
+      font-size: 14px;
+      padding: 8px;
+      text-align: center;
+      margin: -4px 4 0 0;
+      width: 220px;
+      height: 100px;
+      color: #39FF14; }
 
 .productos_container:hover {
   transform: scale(1.1);
@@ -114,7 +126,7 @@
     font-size: 18px;
     border-style: solid;
     border-width: 2px; }
-    .container .main .data h1 {
+    .container .main .data h2 {
       font-size: 24px;
       line-height: 2rem; }
 
@@ -129,6 +141,7 @@
   .container-form .span {
     padding: 1rem; }
     .container-form .span h3 {
+      font-weight: bolder;
       font-size: 24px;
       margin-left: 2rem; }
   .container-form .span2 p {
@@ -137,7 +150,9 @@
     margin-left: 1rem; }
   .container-form .span2 .form-tabs {
     padding: 3rem;
-    margin: 1rem; }
+    margin: 1rem;
+    border-style: solid;
+    border-width: 1px; }
 
 .form .row {
   margin-top: 2rem; }

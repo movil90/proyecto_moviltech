@@ -55,7 +55,6 @@
   text-align: center;
   margin: -4px 4 0 0;
 }
-
 .productos_container:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
