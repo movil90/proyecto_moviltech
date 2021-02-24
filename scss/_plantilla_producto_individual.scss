@@ -41,6 +41,7 @@
             }
             .prices-method{
                 font-size: 20px;
+                border-style: solid;
                 border-style: dotted;
                 border-color: $light_gray;
                 color: #289e87;
@@ -57,19 +58,23 @@
             }
     }
     .data{
-        margin-top: -2rem;
         background-color: white;
         width: auto;
         height: auto;
-        padding: 14px;
+        padding: 1rem;
         line-height: 2rem;
         font-size: 18px;
         border-style:solid;
-        border-width: 2px;
-                h2{
-                    font-size: 24px;
-                    line-height: 2rem;
-
+        border-width: 0px;
+                .data-product-name{
+                    font-size: 26px;
+                    line-height: 3rem;
+                    font-weight: bold;
+                }
+                .span-text-area{
+                    text-align: justify;
+                    text-justify: inter-word;
+                    line-height: 3rem;
                 }
             }
     }  

@@ -29,7 +29,8 @@
   .productos_container .image_product {
     border-radius: 8px 8px 0 0; }
   .productos_container .image_product_games {
-    border-radius: 8px 8px 0 0; }
+    border-radius: 8px 8px 0 0;
+    height: fit-content; }
   .productos_container .product_title {
     background-color: #080a1d;
     font-size: 14px;
@@ -39,7 +40,8 @@
     width: 220px;
     height: 54px;
     line-height: 1rem;
-    color: #39FF14; }
+    color: #39FF14;
+    /* Cuando aplico este estilo a la plantilla de consolas no aplica, al poner el tag en el html */ }
     .productos_container .product_title .product_title_console {
       background-color: #080a1d;
       font-size: 14px;
@@ -104,6 +106,7 @@
       margin: 1rem; }
     .container .main .tag-price .prices-method {
       font-size: 20px;
+      border-style: solid;
       border-style: dotted;
       border-color: #6d80a6;
       color: #289e87;
@@ -117,18 +120,22 @@
       margin-top: 1rem;
       margin-left: 2rem; }
   .container .main .data {
-    margin-top: -2rem;
     background-color: white;
     width: auto;
     height: auto;
-    padding: 14px;
+    padding: 1rem;
     line-height: 2rem;
     font-size: 18px;
     border-style: solid;
-    border-width: 2px; }
-    .container .main .data h2 {
-      font-size: 24px;
-      line-height: 2rem; }
+    border-width: 0px; }
+    .container .main .data .data-product-name {
+      font-size: 26px;
+      line-height: 3rem;
+      font-weight: bold; }
+    .container .main .data .span-text-area {
+      text-align: justify;
+      text-justify: inter-word;
+      line-height: 3rem; }
 
 .container .carousel-control-next,
 .container .carousel-control-prev {
